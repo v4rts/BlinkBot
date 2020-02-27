@@ -13,7 +13,7 @@ def check_commands(text):
     if text == "/help":
         return "Доступные команды бота: /date /image"
     elif text == "/date":
-        return "Здесь пока ничего нет, но скоро точно будет"
+        return "Здесь пока ничего нет, но скоро точно будет, скоро, скоро"
     elif text == "/image":
         return "Здесь пока ничего нет, но скоро точно будет"
     else:
