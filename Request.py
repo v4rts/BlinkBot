@@ -15,6 +15,6 @@ def main():
                 send_mess(get_chat_id(last_update(get_updates_json(url))), check_commands(get_user_text(last_update(get_updates_json(url)))),url)
             update_id += 1
         sleep(1)       
-
+#cooo 
 if __name__ == '__main__':  
     main()
